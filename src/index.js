@@ -21,34 +21,25 @@ const router = createBrowserRouter([
         element: <Index/>
       },
       {
-        path:"home",
+        path:"e-learning-clone/home",
         element:<Home />,
       },
       {
-        path: "contact",
+        path: "e-learning-clone/contact",
         element: <Contact/>
       },
       {
-        path: "about",
+        path: "e-learning-clone/about",
         element: <About/>
       }
     ]
-  },
-  // {
-  //   path:"home",
-  //   element:<Home />,
-  // },
-  // {
-  //   path: "contact",
-  //   element: <Contact/>
-  // }
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ThemeWrapper>
   <React.StrictMode>
-    {/* <RefactoredApp /> */}
     <RouterProvider router={router} />
   </React.StrictMode>
   </ThemeWrapper>
