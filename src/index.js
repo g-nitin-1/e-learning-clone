@@ -12,7 +12,7 @@ import ThemeWrapper from './context/ThemeWrapper';
 
 const router = createBrowserRouter([
   {
-    path: "/", 
+    path: "/e-learning-clone/", 
     element: <Root/>,
     errorElement: <ErrorPage />,
     children: [
