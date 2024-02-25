@@ -21,19 +21,20 @@ const router = createBrowserRouter([
         element: <Index/>
       },
       {
-        path:"e-learning-clone/home",
+        path:"home",
         element:<Home />,
       },
       {
-        path: "e-learning-clone/contact",
+        path: "contact",
         element: <Contact/>
       },
       {
-        path: "e-learning-clone/about",
+        path: "about",
         element: <About/>
       }
     ]
-  }
+  },
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
